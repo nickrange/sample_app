@@ -1,4 +1,5 @@
-require 'spec_helper'
+#require 'spec_helper' ##removed this as it's required in the ApplicationHelper file
+include ApplicationHelper
 
 describe "Static pages" do
   # setup and common behaviour
